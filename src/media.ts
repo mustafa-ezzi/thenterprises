@@ -2,7 +2,7 @@ import type { CategorySlug } from "./data/categories";
 import { categories } from "./data/categories";
 
 /** Public base URL for Cloudflare R2 bucket `TNH-media`. Empty until you paste the URL. */
-export const R2 = "";
+export const R2: string = "";
 
 export const hasRemoteMedia = R2.length > 0;
 
