@@ -51,7 +51,7 @@ export const logoCandidates = [
 
 export const media = {
   heroVideo: HERO_VIDEO,
-  heroPoster: r2("hero/poster.jpg") || "/placeholders/hero-poster.svg",
+  heroPoster: r2("hero/poster.jpg") || "/hero-poster.jpg",
   logo: logoCandidates[0],
   categories: categoryCovers,
   fallbackCover: FALLBACK_COVER,
