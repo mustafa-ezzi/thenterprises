@@ -39,12 +39,12 @@ export function brandLogo(slug: CategorySlug): string {
 /** Drop the mark in `public/` as one of these names. */
 export const logoCandidates = [
   "/logo.png",
-  "/logo.jpg",
+  "/logo.png",
   "/logo.jpeg",
   "/logo.webp",
   "/logo.svg",
   "/Logo.png",
-  "/Logo.jpg",
+  "/logo.png",
   "/tnh-logo.png",
   "/TNH-logo.png",
 ] as const;
