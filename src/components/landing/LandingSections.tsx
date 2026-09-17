@@ -6,46 +6,42 @@ import { services } from "../../data/services";
 import { usePrefersReducedMotion } from "../../hooks/useLanding";
 import { Button } from "../ui/Button";
 
+const CAROUSEL_BASE = "https://pub-6b086f2686134300918c3ecd2486025c.r2.dev/carousal";
+
 const projectImages = [
   {
-    src: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1800&q=80",
-    thumb: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=480&q=70",
-    alt: "Construction crew working on a high-rise site",
+    src: `${CAROUSEL_BASE}/construction.jfif`,
+    alt: "Concrete frame under construction with hard hats on stacked lumber",
     label: "Construction",
     title: "Steel, hardware, and site supply.",
   },
   {
-    src: "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?auto=format&fit=crop&w=1800&q=80",
-    thumb: "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?auto=format&fit=crop&w=480&q=70",
-    alt: "Plumber installing pipes under a sink",
+    src: `${CAROUSEL_BASE}/plumbering.jfif`,
+    alt: "Plumbing pipes, valves, and fittings for site work",
     label: "Plumbing",
     title: "Pipes, valves, and fittings on demand.",
   },
   {
-    src: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=1800&q=80",
-    thumb: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=480&q=70",
-    alt: "Electrician working on an industrial control panel",
+    src: `${CAROUSEL_BASE}/electrical.jfif`,
+    alt: "Open industrial electrical panel with dressed cables and tools",
     label: "Electrical",
     title: "Power, panels, and industrial essentials.",
   },
   {
-    src: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1800&q=80",
-    thumb: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=480&q=70",
-    alt: "Workers wearing hard hats and safety gear on site",
+    src: `${CAROUSEL_BASE}/safety.jfif`,
+    alt: "Hard hats, harness, gloves, and hi-vis vests on a navy backdrop",
     label: "Safety equipment",
     title: "PPE that keeps crews protected.",
   },
   {
-    src: "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&w=1800&q=80",
-    thumb: "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&w=480&q=70",
-    alt: "Hand tools and hardware laid out for a job",
+    src: `${CAROUSEL_BASE}/tools.jfif`,
+    alt: "Power drill, hammer, sockets, and a spirit level on a workbench",
     label: "Tools & hardware",
     title: "The kit crews reach for every day.",
   },
   {
-    src: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1800&q=80",
-    thumb: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=480&q=70",
-    alt: "Engineer inspecting industrial equipment",
+    src: `${CAROUSEL_BASE}/industrial.jfif`,
+    alt: "Industrial plant floor with pumps, gauges, and a steel walkway",
     label: "Industrial",
     title: "Equipment sourced for real site conditions.",
   },
@@ -133,7 +129,7 @@ function ProjectCarousel() {
             key={image.src}
             onClick={() => goTo(index)}
           >
-            <img src={image.thumb} alt="" />
+            <img src={image.src} alt="" />
             <span>{image.label}</span>
           </button>
         ))}
