@@ -13,7 +13,7 @@ export const meta = {
   services: {
     title: "Services",
     description:
-      "Import, export, local supply, and general sourcing from T&H Enterprises in Karachi. Products are the lines; services are how they move.",
+      "Import, export, local supply, and general sourcing from T&H Enterprise in Karachi. Products are the lines; services are how they move.",
   },
   brands: {
     title: "Brands",
@@ -27,11 +27,11 @@ export const meta = {
   },
   contact: {
     title: "Contact",
-    description: `Request a quote from T&H Enterprises. Call ${company.phone.display}, WhatsApp, or email ${company.email}.`,
+    description: `Request a quote from T&H Enterprise. Call ${company.phone.display}, WhatsApp, or email ${company.email}.`,
   },
   privacy: {
     title: "Privacy Policy",
-    description: "How T&H Enterprises handles enquiry data. No advertising trackers on this site.",
+    description: "How T&H Enterprise handles enquiry data. No advertising trackers on this site.",
   },
   terms: {
     title: "Terms of Use",
@@ -39,10 +39,10 @@ export const meta = {
   },
   cookies: {
     title: "Cookie Policy",
-    description: "T&H Enterprises does not set marketing cookies or third-party analytics pixels.",
+    description: "T&H Enterprise does not set marketing cookies or third-party analytics pixels.",
   },
   notFound: {
     title: "Page not found",
-    description: "This page is not on the T&H Enterprises site. Return home or browse products.",
+    description: "This page is not on the T&H Enterprise site. Return home or browse products.",
   },
 } as const;

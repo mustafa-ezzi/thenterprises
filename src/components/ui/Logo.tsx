@@ -22,7 +22,7 @@ export function Logo({ to = "#top", animated = true, className = "" }: LogoProps
         <LogoMark />
       )}
       <span>
-        T&H <span className="logo-suffix">Enterprises</span>
+        T&H <span className="logo-suffix">Enterprise</span>
       </span>
     </>
   );

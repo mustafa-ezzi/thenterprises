@@ -1,4 +1,4 @@
-# T&H Enterprises — Development Phases
+# T&H Enterprise — Development Phases
 
 Build order for the React showcase. Each phase has a **technical** outcome (`01-technical.md`) and a **beauty** outcome (`02-beauty.md`). Do not skip colour lock. Do not start inner pages before the landing frame feels finished.
 
@@ -178,7 +178,7 @@ If technical and beauty conflict: **PDF facts win over Vesper copy; Vesper layou
 
 | Phase | From you |
 |---|---|
-| 0 | Public R2 base URL, optional logo SVG, confirm “Enterprises” vs “Enterprise” |
+| 0 | Public R2 base URL, optional logo SVG, confirm “Enterprise” vs “Enterprise” |
 | 1 | `hero/hero.mp4` + `hero/poster.jpg` (or “use shader fallback”) |
 | 3 | `categories/{slug}.jpg` and optional product stills |
 | 4 | Brand logos, Formspree id (optional) |

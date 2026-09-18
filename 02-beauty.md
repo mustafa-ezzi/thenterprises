@@ -1,4 +1,4 @@
-# T&H Enterprises — Beauty Spec
+# T&H Enterprise — Beauty Spec
 
 Visual system for a general-supply showcase that should feel expensive, industrial, and slightly impossible for a catalog site. Layout language from the Vesper.ai single-viewport landing. Colour and photography from `T&H Service1.pdf`. A light dose of neumorphism on inner surfaces — not a claymorphism theme.
 
@@ -195,7 +195,7 @@ Layer back → front:
 
 Header: `display: grid; grid-template-columns: 1fr auto 1fr;` padding `var(--header-y) var(--header-x) 10px`.
 
-**Logo** → `#top`. Typeset `T&H` + `<span class="logo-suffix">Enterprises</span>` at weight 400. Mark: custom monogram (T against H, or a small steel bar-and-circle), **not** Vesper’s rotated dual-pill. 22×22, `currentColor`.
+**Logo** → `#top`. Typeset `T&H` + `<span class="logo-suffix">Enterprise</span>` at weight 400. Mark: custom monogram (T against H, or a small steel bar-and-circle), **not** Vesper’s rotated dual-pill. 22×22, `currentColor`.
 
 **Nav pills:** Products, Capabilities, Brands, Contact.
 

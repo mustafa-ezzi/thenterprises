@@ -1,8 +1,8 @@
-# T&H Enterprises — Technical Spec
+# T&H Enterprise — Technical Spec
 
 Static product/service showcase. No cart, no checkout, no user accounts, no payments.
 
-Source of truth for company facts: `T&H Service1.pdf` (16 pages). Legal name in the PDF is **T&H Enterprise**. Public site brand (per brief): **T&H Enterprises**.
+Source of truth for company facts: `T&H Service1.pdf` (16 pages). Legal name in the PDF is **T&H Enterprise**. Public site brand (per brief): **T&H Enterprise**.
 
 ---
 
@@ -189,7 +189,7 @@ Favicon: custom T&H mark (not the Vesper dumbbell SVG). Data-URI favicon is gene
 
 Recreate the **structure, motion, materials, and breakpoints** from the Vesper brief. Replace every Vesper string, logo, and stat.
 
-Document title: `T&H Enterprises — General Supply · Import · Export`  
+Document title: `T&H Enterprise — General Supply · Import · Export`  
 `lang="en"`
 
 **Anti-flash:** first CSS rule `html, body { background: var(--bg) !important; color: var(--text); }` plus body inline `style`. `--bg` is the PDF ink colour, not assumed `#000` until colour lock (see Beauty spec).
@@ -288,7 +288,7 @@ No quantity, no SKU cart, no payment fields.
 
 - Unique `<title>` + meta description per route (`react-helmet-async` or a small Head component)
 - Semantic landmarks: `header`, `nav`, `main`, `footer`
-- Logo `aria-label="T&H Enterprises"`
+- Logo `aria-label="T&H Enterprise"`
 - Burger `aria-controls`, `aria-expanded`, Open/Close menu labels
 - Images: `width`/`height` or aspect-ratio, descriptive `alt`
 - Lighthouse (desktop landing): Performance ≥ 90, ignore hero video bitrate
@@ -309,4 +309,4 @@ Cart, checkout, inventory, prices (unless you later supply a list), blog, multil
 2. Logo file (SVG preferred). If missing, site uses a typeset **T&H** wordmark.
 3. Hero `hero.mp4` + poster, or confirmation to ship the React Bits fallback.
 4. Formspree form id (or “use mailto + WhatsApp only”).
-5. Confirm public brand spelling: **T&H Enterprises** vs PDF **T&H Enterprise**.
+5. Confirm public brand spelling: **T&H Enterprise** vs PDF **T&H Enterprise**.

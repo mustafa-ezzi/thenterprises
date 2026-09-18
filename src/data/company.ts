@@ -1,10 +1,10 @@
 export const company = {
 
-  brand: "T&H Enterprises",
+  brand: "T&H Enterprise",
 
   legalName: "T&H Enterprise",
 
-  title: "T&H Enterprises — General Supply · Import · Export",
+  title: "T&H Enterprise — General Supply · Import · Export",
 
   description:
 
