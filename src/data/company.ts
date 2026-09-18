@@ -104,7 +104,7 @@ export const company = {
 
   },
 
-  email: "t.henterprise1920@gmail.com",
+  email: "t.henterprise0@gmail.com",
 
   credit: {
 
