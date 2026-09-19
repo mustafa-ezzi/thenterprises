@@ -44,9 +44,33 @@ export function categoryCover(slug: CategorySlug): string {
   return categoryCovers[slug];
 }
 
-/** Optional stills at `products/{slug}/1.jpg` … `4.jpg` once those objects exist on R2. */
-export function categoryGallery(_slug: CategorySlug): string[] {
-  return [];
+/** Optional product stills. Paths are the object keys already on R2. */
+const categoryGalleries: Partial<Record<CategorySlug, string[]>> = {
+  pneumatic: [
+    "products/pneumatic/1.png",
+    "products/pneumatic/2.png",
+    "products/pneumatic/3.png",
+    "products/pneumatic/4.png",
+    "products/pneumatic/5.png",
+    "products/pneumatic/6.png",
+    "products/pneumatic/7.png",
+    "products/pneumatic/8.png",
+    "products/pneumatic/9.png",
+    "products/pneumatic/10.png",
+    "products/pneumatic/11.jfif",
+    "products/pneumatic/12.jfif",
+    "products/pneumatic/13.jfif",
+    "products/pneumatic/14.jfif",
+    "products/pneumatic/15.jfif",
+    "products/pneumatic/16.jfif",
+    "products/pneumatic/17.jfif",
+    "products/pneumatic/18.jfif",
+    "products/pneumatic/19.jfif",
+  ],
+};
+
+export function categoryGallery(slug: CategorySlug): string[] {
+  return (categoryGalleries[slug] ?? []).map((key) => r2(key));
 }
 
 export function brandLogo(slug: CategorySlug): string {

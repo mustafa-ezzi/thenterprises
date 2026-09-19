@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "media-admin": "npm start --prefix admin"
   },
   "dependencies": {
     "@react-three/fiber": "^9.3.0",

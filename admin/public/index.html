@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>T&H media admin</title>
+    <style>
+      :root {
+        --brand: #203163;
+        --muted: #5c6b8a;
+        --line: rgba(32, 49, 99, 0.12);
+        --bg: #f3f5f9;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: Inter, system-ui, sans-serif;
+        background: var(--bg);
+        color: var(--brand);
+      }
+      header {
+        padding: 28px 32px 8px;
+      }
+      h1 {
+        margin: 0 0 6px;
+        font-size: 28px;
+        font-weight: 500;
+        letter-spacing: -0.04em;
+      }
+      p.lede {
+        margin: 0;
+        color: var(--muted);
+        max-width: 640px;
+        line-height: 1.5;
+      }
+      main {
+        display: grid;
+        gap: 20px;
+        padding: 24px 32px 48px;
+        max-width: 1100px;
+      }
+      .card {
+        background: #fff;
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        padding: 22px;
+      }
+      label {
+        display: grid;
+        gap: 6px;
+        font-size: 13px;
+        font-weight: 600;
+      }
+      select, input[type="text"] {
+        height: 42px;
+        padding: 0 12px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        font: inherit;
+        color: var(--brand);
+      }
+      .row {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 14px;
+        margin-bottom: 16px;
+      }
+      button {
+        font: inherit;
+        cursor: pointer;
+        border: 0;
+        border-radius: 8px;
+        height: 42px;
+        padding: 0 16px;
+        background: var(--brand);
+        color: #fff;
+      }
+      button.ghost {
+        background: #fff;
+        color: var(--brand);
+        border: 1px solid var(--line);
+      }
+      button.danger {
+        background: #fff;
+        color: #9b1c1c;
+        border: 1px solid #f1c9c9;
+        height: 32px;
+        padding: 0 10px;
+        font-size: 12px;
+      }
+      .actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 16px; }
+      .status { margin-top: 14px; color: var(--muted); font-size: 14px; min-height: 1.4em; }
+      .urls {
+        margin-top: 16px;
+        width: 100%;
+        min-height: 140px;
+        padding: 12px;
+        border-radius: 8px;
+        border: 1px solid var(--line);
+        font: 13px/1.45 ui-monospace, SFMono-Regular, Menlo, monospace;
+      }
+      .list { display: grid; gap: 10px; }
+      .item {
+        display: grid;
+        grid-template-columns: 72px 1fr auto;
+        gap: 12px;
+        align-items: center;
+        padding: 8px;
+        border: 1px solid var(--line);
+        border-radius: 12px;
+      }
+      .item img {
+        width: 72px;
+        height: 54px;
+        object-fit: cover;
+        border-radius: 8px;
+        background: var(--bg);
+      }
+      .item code {
+        font-size: 12px;
+        word-break: break-all;
+        color: var(--muted);
+      }
+      .item-actions { display: flex; gap: 6px; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>T&H media admin</h1>
+      <p class="lede">
+        Local only. Upload images to R2, copy the public URLs, then paste them in chat so the static site can be updated. This tool is not part of the website.
+      </p>
+    </header>
+    <main>
+      <section class="card">
+        <form id="upload-form" enctype="multipart/form-data">
+          <div class="row">
+            <label>
+              Destination
+              <select name="kind" id="kind">
+                <option value="products">Product gallery (products/{category}/)</option>
+                <option value="categories">Category covers (categories/)</option>
+                <option value="carousel">Homepage carousel (carousal/)</option>
+                <option value="hero">Hero (hero/)</option>
+                <option value="custom">Custom prefix</option>
+              </select>
+            </label>
+            <label id="category-wrap">
+              Category
+              <select name="category" id="category"></select>
+            </label>
+            <label id="prefix-wrap" hidden>
+              Custom prefix
+              <input type="text" name="prefix" id="prefix" placeholder="products/safety" />
+            </label>
+            <label>
+              File names
+              <select name="naming" id="naming">
+                <option value="sequential">Number them 1, 2, 3…</option>
+                <option value="original">Keep original names</option>
+              </select>
+            </label>
+          </div>
+          <label>
+            Images (up to 50)
+            <input type="file" name="files" id="files" accept="image/jpeg,image/png,image/webp,image/gif,.jfif" multiple required />
+          </label>
+          <div class="actions">
+            <button type="submit">Upload to R2</button>
+            <button type="button" class="ghost" id="refresh">Refresh list</button>
+            <button type="button" class="ghost" id="copy-all">Copy all URLs</button>
+          </div>
+          <p class="status" id="status"></p>
+          <textarea class="urls" id="urls" readonly placeholder="Public URLs appear here after upload."></textarea>
+        </form>
+      </section>
+      <section class="card">
+        <h2 style="margin:0 0 14px;font-size:18px;font-weight:500">Objects in this folder</h2>
+        <div class="list" id="list"></div>
+      </section>
+    </main>
+    <script>
+      const kind = document.getElementById("kind");
+      const category = document.getElementById("category");
+      const prefix = document.getElementById("prefix");
+      const categoryWrap = document.getElementById("category-wrap");
+      const prefixWrap = document.getElementById("prefix-wrap");
+      const status = document.getElementById("status");
+      const urls = document.getElementById("urls");
+      const list = document.getElementById("list");
+
+      function params() {
+        const body = new URLSearchParams({
+          kind: kind.value,
+          category: category.value,
+          prefix: prefix.value,
+        });
+        return body.toString();
+      }
+
+      function toggleFields() {
+        categoryWrap.hidden = kind.value !== "products";
+        prefixWrap.hidden = kind.value !== "custom";
+        document.getElementById("naming").value = kind.value === "products" ? "sequential" : "original";
+      }
+
+      async function loadMeta() {
+        const res = await fetch("/api/meta");
+        const data = await res.json();
+        category.innerHTML = data.categories
+          .map((item) => `<option value="${item.slug}">${item.name}</option>`)
+          .join("");
+      }
+
+      async function loadList() {
+        status.textContent = "Loading…";
+        const res = await fetch(`/api/list?${params()}`);
+        const data = await res.json();
+        if (!res.ok) {
+          status.textContent = data.error || "Could not list objects.";
+          return;
+        }
+        status.textContent = `${data.objects.length} file(s) in ${data.prefix || "/"}`;
+        urls.value = data.objects.map((item) => item.url).join("\n");
+        list.innerHTML = data.objects
+          .map(
+            (item) => `
+              <div class="item">
+                <img src="${item.url}" alt="" />
+                <div>
+                  <div>${item.key}</div>
+                  <code>${item.url}</code>
+                </div>
+                <div class="item-actions">
+                  <button type="button" class="ghost" data-copy="${item.url}">Copy</button>
+                  <button type="button" class="danger" data-delete="${item.key}">Delete</button>
+                </div>
+              </div>
+            `,
+          )
+          .join("") || "<p class='status'>This folder is empty.</p>";
+      }
+
+      document.getElementById("upload-form").addEventListener("submit", async (event) => {
+        event.preventDefault();
+        const picked = document.getElementById("files").files;
+        if (!picked.length) {
+          status.textContent = "Choose at least one image.";
+          return;
+        }
+        const form = new FormData();
+        form.append("kind", kind.value);
+        form.append("category", category.value);
+        form.append("prefix", prefix.value);
+        form.append("naming", document.getElementById("naming").value);
+        for (const file of picked) {
+          form.append("files", file, file.name);
+        }
+        status.textContent = "Uploading…";
+        const res = await fetch("/api/upload", { method: "POST", body: form });
+        const data = await res.json();
+        if (!res.ok) {
+          status.textContent = data.error || "Upload failed.";
+          return;
+        }
+        urls.value = data.uploaded.map((item) => item.url).join("\n");
+        status.textContent = `Uploaded ${data.uploaded.length} file(s).`;
+        await loadList();
+      });
+
+      document.getElementById("refresh").addEventListener("click", loadList);
+      document.getElementById("copy-all").addEventListener("click", async () => {
+        await navigator.clipboard.writeText(urls.value);
+        status.textContent = "Copied all URLs.";
+      });
+
+      list.addEventListener("click", async (event) => {
+        const copy = event.target.closest("[data-copy]");
+        const remove = event.target.closest("[data-delete]");
+        if (copy) {
+          await navigator.clipboard.writeText(copy.dataset.copy);
+          status.textContent = "Copied one URL.";
+        }
+        if (remove && confirm(`Delete ${remove.dataset.delete}?`)) {
+          const res = await fetch("/api/delete", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ key: remove.dataset.delete }),
+          });
+          const data = await res.json();
+          status.textContent = res.ok ? "Deleted." : data.error || "Delete failed.";
+          if (res.ok) await loadList();
+        }
+      });
+
+      kind.addEventListener("change", () => {
+        toggleFields();
+        loadList();
+      });
+      category.addEventListener("change", loadList);
+
+      toggleFields();
+      loadMeta().then(loadList);
+    </script>
+  </body>
+</html>
