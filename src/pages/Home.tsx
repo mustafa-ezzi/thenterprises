@@ -1,3 +1,4 @@
+import { BrandStrip } from "../components/landing/BrandStrip";
 import ClickSpark from "../components/bits/ClickSpark/ClickSpark";
 import { Header } from "../components/landing/Header";
 import { Hero } from "../components/landing/Hero";
@@ -23,6 +24,7 @@ function HomeChrome() {
           <HeroMedia />
           <Hero />
           <Stats />
+          <BrandStrip />
         </section>
         <LandingSections />
       </main>
