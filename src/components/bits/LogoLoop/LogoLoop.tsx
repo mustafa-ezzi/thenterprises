@@ -14,6 +14,7 @@ type LogoLoopProps = {
   gap?: number;
   pauseOnHover?: boolean;
   fadeOut?: boolean;
+  duration?: number;
   className?: string;
 };
 
@@ -24,11 +25,12 @@ export default function LogoLoop({
   gap = 48,
   pauseOnHover = true,
   fadeOut = true,
+  duration,
   className = "",
 }: LogoLoopProps) {
   if (logos.length === 0) return null;
 
-  const duration = Math.max(18, (logos.length * gap) / Math.max(speed, 8));
+  const loopDuration = duration ?? Math.max(18, (logos.length * gap) / Math.max(speed, 8));
   const track = [...logos, ...logos];
 
   return (
@@ -36,7 +38,7 @@ export default function LogoLoop({
       className={`logo-loop${fadeOut ? " logo-loop--fade" : ""}${pauseOnHover ? " logo-loop--pause" : ""} ${className}`.trim()}
       style={
         {
-          ["--loop-duration" as string]: `${duration}s`,
+          ["--loop-duration" as string]: `${loopDuration}s`,
           ["--loop-gap" as string]: `${gap}px`,
           ["--loop-height" as string]: `${logoHeight}px`,
         } as CSSProperties

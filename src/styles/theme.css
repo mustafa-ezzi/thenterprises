@@ -1661,19 +1661,21 @@ body.menu-open .burger-bar:nth-child(3) {
 }
 
 .hero-brands {
-  background: #fff;
-  padding: 16px 0 18px;
+  background: linear-gradient(180deg, #eef2f7 0%, #f7f9fc 100%);
+  padding: 18px 0 22px;
   border-top: 0;
-  box-shadow: 0 -18px 40px rgba(14, 25, 58, 0.2);
 }
 
 .hero-brands-label {
-  margin: 0 0 12px;
+  margin: 0 0 14px;
   text-align: center;
+}
+
+.hero-brands-label a {
   color: var(--brand);
   font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.18em;
+  font-weight: 700;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
 }
 
@@ -1681,75 +1683,170 @@ body.menu-open .burger-bar:nth-child(3) {
   margin: 0;
 }
 
-.hero-brands .logo-loop + .logo-loop {
-  margin-top: 10px;
-}
-
 .hero-brands .logo-loop-track {
   animation-direction: reverse;
-}
-
-.hero-brands .hero-brands-row--rtl .logo-loop-track {
-  animation-direction: normal;
 }
 
 .hero-brands .logo-loop-item {
   height: auto;
 }
 
-.hero-brand-card {
-  display: flex;
-  flex-direction: column;
+.brand-mark--pill {
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
-  min-width: 128px;
-  height: 92px;
-  padding: 10px 14px 12px;
-  background: #f4f6fb;
-  border: 1px solid var(--border-soft);
-  border-radius: 14px;
+  min-width: 132px;
+  height: 52px;
+  padding: 8px 18px;
+  background: #fff;
+  border: 1.5px solid rgba(32, 49, 99, 0.14);
+  border-radius: 999px;
+  box-shadow: 0 8px 20px rgba(32, 49, 99, 0.08);
 }
 
-.hero-brand-logo {
-  height: 36px;
+.hero-brands .logo-loop-item:nth-child(4n + 1) .brand-mark--pill {
+  border-color: #1d6b73;
+}
+
+.hero-brands .logo-loop-item:nth-child(4n + 2) .brand-mark--pill {
+  border-color: #c45c26;
+}
+
+.hero-brands .logo-loop-item:nth-child(4n + 3) .brand-mark--pill {
+  border-color: #9b1c1c;
+}
+
+.hero-brands .logo-loop-item:nth-child(4n + 4) .brand-mark--pill {
+  border-color: #203163;
+}
+
+.brand-mark-logo {
+  height: 28px;
   width: auto;
   max-width: 108px;
   object-fit: contain;
 }
 
-.hero-brand-fallback {
+.brand-mark-fallback {
   display: grid;
   place-items: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 10px;
-  background: var(--brand);
-  color: #fff;
-  font-size: 13px;
-  font-weight: 600;
+  min-width: 28px;
+  height: 28px;
+  color: var(--brand);
+  font-size: 12px;
+  font-weight: 700;
   letter-spacing: 0.04em;
 }
 
-.hero-brand-name,
-.hero-brands .logo-loop-name {
+.brand-mark-name {
   color: var(--brand);
   font-size: 11px;
   font-weight: 600;
-  letter-spacing: 0.04em;
-  text-transform: none;
-  line-height: 1.2;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+}
+
+.brand-mark--pill .brand-mark-name {
+  font-size: 12px;
+}
+
+.brand-poster {
+  margin-top: 36px;
+  padding: 0 0 48px;
+  background: #fff;
+  border: 1px solid var(--border-soft);
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.brand-poster-head {
+  display: grid;
+  place-items: center;
+  min-height: 72px;
+  background: var(--brand);
+  color: #fff;
+}
+
+.brand-poster-head p {
+  margin: 0;
+  font-size: clamp(16px, 2.4vw, 22px);
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.brand-diamonds {
+  padding: 56px 24px 72px;
+}
+
+.brand-diamond-row {
+  display: flex;
+  justify-content: center;
+  gap: 38px;
+  list-style: none;
+}
+
+.brand-diamond-row + .brand-diamond-row {
+  margin-top: -20px;
+}
+
+.brand-diamond {
+  display: grid;
+  place-items: center;
+  width: 124px;
+  height: 124px;
+  background: #fff;
+  border: 2px solid #1b1b1b;
+  transform: rotate(45deg);
+  box-shadow: 6px 6px 0 rgba(32, 49, 99, 0.06);
+}
+
+.brand-mark--diamond {
+  display: grid;
+  justify-items: center;
+  gap: 6px;
+  width: 86px;
+  transform: rotate(-45deg);
   text-align: center;
 }
 
+.brand-mark--diamond .brand-mark-logo {
+  height: 34px;
+  max-width: 78px;
+}
+
+.brand-mark--diamond .brand-mark-name {
+  font-size: 10px;
+  line-height: 1.15;
+  white-space: normal;
+}
+
 @media (max-width: 900px) {
-  .hero-brand-card {
-    min-width: 110px;
-    height: 84px;
+  .brand-mark--pill {
+    min-width: 118px;
+    height: 48px;
   }
 
-  .hero-brand-logo {
-    height: 30px;
+  .brand-diamonds {
+    padding: 36px 12px 48px;
+  }
+
+  .brand-diamond-row {
+    gap: 22px;
+  }
+
+  .brand-diamond-row + .brand-diamond-row {
+    margin-top: -8px;
+  }
+
+  .brand-diamond {
+    width: 96px;
+    height: 96px;
+  }
+
+  .brand-mark--diamond {
+    width: 70px;
   }
 }
 

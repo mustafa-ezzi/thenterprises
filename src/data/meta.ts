@@ -16,9 +16,9 @@ export const meta = {
       "Import, export, local supply, and general sourcing from T&H Enterprise in Karachi. Products are the lines; services are how they move.",
   },
   brands: {
-    title: "Brands",
+    title: "Brands under one roof",
     description:
-      "Certified imported goods across T&H supply lines. Ask which manufacturer marks we can source for your site.",
+      "Manufacturer marks T&H Enterprise stocks, deals, and sources — safety, tools, HVAC, electrical, paints, and more.",
   },
   about: {
     title: "About",
