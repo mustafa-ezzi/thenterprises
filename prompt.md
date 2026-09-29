@@ -13,11 +13,15 @@ Use these in **Gemini** (Imagen / Nano Banana) to generate catalog stills for ea
 
 ---
 
+
+
 ## Shared style (prepend to every prompt)
 
 Photorealistic commercial industrial-supply catalog photograph, 4:3 landscape, natural daylight mixed with soft workshop or studio light, sharp focus on the product, realistic materials and wear, shallow-to-medium depth of field, color photography (not black and white), no brand logos, no readable text, no watermarks, no graphic overlays. Style similar to a B2B industrial catalog for a Karachi general supplier: honest products, real materials, not CGI-glossy.
 
 ---
+
+
 
 ## 1. Safety products — `safety`
 
@@ -76,6 +80,8 @@ Scope: fire protection, fall protection, PPEs, protective clothing, road and saf
 
 ---
 
+
+
 ## 2. Pneumatic materials & essentials — `pneumatic`
 
 Scope: PU pipes, fittings, valves, pressure and temperature gauges.
@@ -132,6 +138,8 @@ Scope: PU pipes, fittings, valves, pressure and temperature gauges.
 50. Workbench scene: blue PU coil, brass ball valve, analog gauge, elbows and tees — catalog hero for pneumatics.
 
 ---
+
+
 
 ## 3. Power & hand tools — `tools` 10 products done
 
@@ -190,7 +198,9 @@ Scope: power tools and hand tools.
 
 ---
 
-## 4. Construction materials — `construction 10`  done products
+
+
+## 4. Construction materials — `construction` 10 products done
 
 Scope: building and site materials.
 
@@ -247,7 +257,9 @@ Scope: building and site materials.
 
 ---
 
-## 5. Welding & cutting — `welding`
+
+
+## 5. Welding & cutting — `welding` 10 products done
 
 Scope: welding and cutting machines and equipment.
 
@@ -304,7 +316,9 @@ Scope: welding and cutting machines and equipment.
 
 ---
 
-## 6. Iron & steel — `steel`
+
+
+## 6. Iron & steel — `steel` 10 products done
 
 Scope: iron and steel supply.
 
@@ -361,7 +375,9 @@ Scope: iron and steel supply.
 
 ---
 
-## 7. Air conditioning & refrigeration — `hvac`
+
+
+## 7. Air conditioning & refrigeration — `hvac` 10 products done
 
 Scope: copper pipes, fittings, compressors, HVAC components.
 
@@ -418,7 +434,9 @@ Scope: copper pipes, fittings, compressors, HVAC components.
 
 ---
 
-## 8. Electronic materials & essentials — `electronics`
+
+
+## 8. Electronic materials & essentials — `electronics` 10 products done
 
 Scope: electronic goods and essentials.
 
@@ -475,7 +493,9 @@ Scope: electronic goods and essentials.
 
 ---
 
-## 9. Electrical goods — `electrical`
+
+
+## 9. Electrical goods — `electrical` 10 products done
 
 Scope: wires, fittings, breakers, switch boards, plugs.
 
@@ -531,6 +551,8 @@ Scope: wires, fittings, breakers, switch boards, plugs.
 50. Hero electrical catalog shot matching the existing still life composition.
 
 ---
+
+
 
 ## 10. Pipes, fittings & valves — `pipes`
 
@@ -589,6 +611,8 @@ Scope: GI, MS, and SS pipes, valves, fittings, joints.
 
 ---
 
+
+
 ## 11. Stationery, packing, chemicals, janitorial — `janitorial`
 
 Scope: stationery, packing, chemicals, cleaning tools.
@@ -645,6 +669,8 @@ Scope: stationery, packing, chemicals, cleaning tools.
 50. Hero warehouse still life: wrap, jerry can, boxes, cloths, broom on a pallet.
 
 ---
+
+
 
 ## 12. Lubricant oil & grease — `lubricants`
 
@@ -703,6 +729,8 @@ Scope: oils and greases.
 
 ---
 
+
+
 ## 13. Medical equipment — `medical`
 
 Scope: medical equipment.
@@ -759,6 +787,8 @@ Scope: medical equipment.
 50. Hero clinic still life: BP monitor, stethoscope, first-aid kit, gauze — matching the existing medical photo.
 
 ---
+
+
 
 ## Batch notes for Gemini
 
