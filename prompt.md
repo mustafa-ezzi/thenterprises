@@ -41,45 +41,38 @@ Scope: fire protection, fall protection, PPEs, protective clothing, road and saf
 16. Half-face respirator with dual cartridges on a dark navy backdrop, industrial still life.
 17. Box of disposable dust masks fanned open on a warehouse table (no readable brand).
 18. Over-ear industrial earmuffs in yellow and black on a wooden workbench.
-
-
-
-
-
-
-
-1. Foam earplugs in a small dispenser bowl next to earmuffs, workshop lighting.
-2. Face shield visor attached to a hard-hat bracket, standing on a metal table.
-3. Welding-style leather spats and heavy leather gloves for hot work, on a steel table.
-4. Flame-resistant coverall hanging on a locker hook in an industrial changing room.
-5. Chemical splash goggles and a rubber apron arranged on a lab-style industrial bench.
-6. First-aid cabinet (red cross, no extra text) open on a wall, bandages visible inside.
-7. Emergency eye-wash station with yellow bowl and dual nozzles on a factory wall.
-8. Safety shower pole with pull handle in a chemical plant aisle.
-9. Lockout-tagout kit: hasps, tags, and padlocks arranged in a plastic tray.
-10. Anti-slip floor marking tape rolls in yellow/black hazard stripes on a warehouse floor.
-11. Reflective road studs / cat’s eyes in a small pile on asphalt.
-12. Life ring / ring buoy in orange with rope, hanging on a dock-style industrial railing.
-13. Confined-space tripod with winch set up over a manhole on a plant floor.
-14. Gas detector handheld unit on a table with a coiled sampling hose (no screen text).
-15. Safety helmet with chin strap and mounted headlamp, dark navy background.
-16. Cut-level nitrile-coated palm gloves in several colors stacked in a neat pile.
-17. Knee pads for construction kneeling work, dusty, on a plywood sheet.
-18. High-vis raincoat with reflective bands hanging on a peg in a site office.
-19. Traffic marshal kit: whistle, high-vis sleeve, and handheld baton on a desk.
-20. Fire alarm break-glass call point on a painted industrial wall (no readable brand).
-21. Smoke detector and heat detector side by side on a ceiling tile, looking up.
-22. Emergency exit light box above a steel door in a warehouse (icon only, no letters).
-23. Spill-kit yellow wheeled bin open, absorbent pads and socks visible.
-24. Anti-static ESD wrist strap and heel grounder on an electronics bench.
-25. Safety spectacles with side shields in several tints laid in a row.
-26. Chain-link temporary fence panel with orange debris netting on a construction site.
-27. Speed bump / rubber rumble strip section on a factory driveway.
-28. Warning beacon / rotating amber site light on a magnetic base.
-29. Rescue stretcher folded beside a first-aid backpack in a plant clinic corner.
-30. Fall-protection anchor sling wrapped around a steel I-beam.
-31. Fire blanket deployed slightly open on a workshop floor, unused, with extinguisher nearby.
-32. Complete PPE still life: helmet, vest, gloves, goggles, boots, and extinguisher grouped on a concrete cube, navy backdrop.
+19. Foam earplugs in a small dispenser bowl next to earmuffs, workshop lighting.
+20. Face shield visor attached to a hard-hat bracket, standing on a metal table.
+21. Welding-style leather spats and heavy leather gloves for hot work, on a steel table.
+22. Flame-resistant coverall hanging on a locker hook in an industrial changing room.
+23. Chemical splash goggles and a rubber apron arranged on a lab-style industrial bench.
+24. First-aid cabinet (red cross, no extra text) open on a wall, bandages visible inside.
+25. Emergency eye-wash station with yellow bowl and dual nozzles on a factory wall.
+26. Safety shower pole with pull handle in a chemical plant aisle.
+27. Lockout-tagout kit: hasps, tags, and padlocks arranged in a plastic tray.
+28. Anti-slip floor marking tape rolls in yellow/black hazard stripes on a warehouse floor.
+29. Reflective road studs / cat’s eyes in a small pile on asphalt.
+30. Life ring / ring buoy in orange with rope, hanging on a dock-style industrial railing.
+31. Confined-space tripod with winch set up over a manhole on a plant floor.
+32. Gas detector handheld unit on a table with a coiled sampling hose (no screen text).
+33. Safety helmet with chin strap and mounted headlamp, dark navy background.
+34. Cut-level nitrile-coated palm gloves in several colors stacked in a neat pile.
+35. Knee pads for construction kneeling work, dusty, on a plywood sheet.
+36. High-vis raincoat with reflective bands hanging on a peg in a site office.
+37. Traffic marshal kit: whistle, high-vis sleeve, and handheld baton on a desk.
+38. Fire alarm break-glass call point on a painted industrial wall (no readable brand).
+39. Smoke detector and heat detector side by side on a ceiling tile, looking up.
+40. Emergency exit light box above a steel door in a warehouse (icon only, no letters).
+41. Spill-kit yellow wheeled bin open, absorbent pads and socks visible.
+42. Anti-static ESD wrist strap and heel grounder on an electronics bench.
+43. Safety spectacles with side shields in several tints laid in a row.
+44. Chain-link temporary fence panel with orange debris netting on a construction site.
+45. Speed bump / rubber rumble strip section on a factory driveway.
+46. Warning beacon / rotating amber site light on a magnetic base.
+47. Rescue stretcher folded beside a first-aid backpack in a plant clinic corner.
+48. Fall-protection anchor sling wrapped around a steel I-beam.
+49. Fire blanket deployed slightly open on a workshop floor, unused, with extinguisher nearby.
+50. Complete PPE still life: helmet, vest, gloves, goggles, boots, and extinguisher grouped on a concrete cube, navy backdrop.
 
 ---
 
@@ -140,7 +133,7 @@ Scope: PU pipes, fittings, valves, pressure and temperature gauges.
 
 ---
 
-## 3. Power & hand tools — `tools`
+## 3. Power & hand tools — `tools` 10 products done
 
 Scope: power tools and hand tools.
 
@@ -197,7 +190,7 @@ Scope: power tools and hand tools.
 
 ---
 
-## 4. Construction materials — `construction`
+## 4. Construction materials — `construction 10`  done products
 
 Scope: building and site materials.
 
