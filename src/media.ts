@@ -46,6 +46,25 @@ export function categoryCover(slug: CategorySlug): string {
 
 /** Optional product stills. Paths are the object keys already on R2. */
 const categoryGalleries: Partial<Record<CategorySlug, string[]>> = {
+  safety: [
+    "products/safety/1.jfif",
+    "products/safety/2.jfif",
+    "products/safety/3.jfif",
+    "products/safety/4.jfif",
+    "products/safety/5.jfif",
+    "products/safety/6.jfif",
+    "products/safety/7.jfif",
+    "products/safety/8.jfif",
+    "products/safety/9.jfif",
+    "products/safety/10.jfif",
+    "products/safety/11.jfif",
+    "products/safety/12.jfif",
+    "products/safety/13.jfif",
+    "products/safety/14.jfif",
+    "products/safety/15.jfif",
+    "products/safety/16.jfif",
+    "products/safety/17.jfif",
+  ],
   pneumatic: [
     "products/pneumatic/1.png",
     "products/pneumatic/2.png",
