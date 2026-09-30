@@ -13,15 +13,11 @@ Use these in **Gemini** (Imagen / Nano Banana) to generate catalog stills for ea
 
 ---
 
-
-
 ## Shared style (prepend to every prompt)
 
 Photorealistic commercial industrial-supply catalog photograph, 4:3 landscape, natural daylight mixed with soft workshop or studio light, sharp focus on the product, realistic materials and wear, shallow-to-medium depth of field, color photography (not black and white), no brand logos, no readable text, no watermarks, no graphic overlays. Style similar to a B2B industrial catalog for a Karachi general supplier: honest products, real materials, not CGI-glossy.
 
 ---
-
-
 
 ## 1. Safety products — `safety`
 
@@ -80,8 +76,6 @@ Scope: fire protection, fall protection, PPEs, protective clothing, road and saf
 
 ---
 
-
-
 ## 2. Pneumatic materials & essentials — `pneumatic`
 
 Scope: PU pipes, fittings, valves, pressure and temperature gauges.
@@ -138,8 +132,6 @@ Scope: PU pipes, fittings, valves, pressure and temperature gauges.
 50. Workbench scene: blue PU coil, brass ball valve, analog gauge, elbows and tees — catalog hero for pneumatics.
 
 ---
-
-
 
 ## 3. Power & hand tools — `tools` 10 products done
 
@@ -198,8 +190,6 @@ Scope: power tools and hand tools.
 
 ---
 
-
-
 ## 4. Construction materials — `construction` 10 products done
 
 Scope: building and site materials.
@@ -256,8 +246,6 @@ Scope: building and site materials.
 50. Hero site still life: cement stack, trowel, binding wire, level — catalog cover for construction.
 
 ---
-
-
 
 ## 5. Welding & cutting — `welding` 10 products done
 
@@ -316,8 +304,6 @@ Scope: welding and cutting machines and equipment.
 
 ---
 
-
-
 ## 6. Iron & steel — `steel` 10 products done
 
 Scope: iron and steel supply.
@@ -374,8 +360,6 @@ Scope: iron and steel supply.
 50. Hero yard still life: rebar bundle and angle stack on timber, crane in background.
 
 ---
-
-
 
 ## 7. Air conditioning & refrigeration — `hvac` 10 products done
 
@@ -434,8 +418,6 @@ Scope: copper pipes, fittings, compressors, HVAC components.
 
 ---
 
-
-
 ## 8. Electronic materials & essentials — `electronics` 10 products done
 
 Scope: electronic goods and essentials.
@@ -493,8 +475,6 @@ Scope: electronic goods and essentials.
 
 ---
 
-
-
 ## 9. Electrical goods — `electrical` 10 products done
 
 Scope: wires, fittings, breakers, switch boards, plugs.
@@ -507,54 +487,51 @@ Scope: wires, fittings, breakers, switch boards, plugs.
 6. Changeover switch rotary, 3-phase, on a panel.
 7. Industrial socket 32A 400V red and 16A 230V blue.
 8. Extension cord reel, industrial, yellow jacket.
-9. Three-core flex cable coil, brown/blue/green-yellow.
-10. Armoured SWA cable cut end showing cores and armour.
-11. Earth cable green-yellow coil large.
-12. Cable lugs copper, tinned, various sizes.
-13. Cable glands brass and nylon, PG and metric.
-14. PVC conduit pipes white, with elbows and tees.
-15. GI conduit and inspection bends.
-16. Junction boxes grey IP65 with glands.
-17. Weatherproof isolator on a wall.
-18. LED bulkhead light and a floodlight (unlabeled).
-19. Fluorescent-style batten and an LED tube.
-20. Ceiling rose and a pendant holder.
-21. Switch plates: 1-gang, 2-gang, dimmer (blank).
-22. Socket outlets 13A (universal/generic, no brand).
-23. Industrial metal-clad sockets.
-24. Trunking PVC and a slotted cable duct.
-25. Cable tray perforated, galvanized, with a lid.
-26. Busbar copper in an open panel, taped ends.
-27. Neutral and earth bars in a DB.
-28. Timer switch analog (blank face).
-29. Photocell street-light sensor.
-30. Door bell transformer and a push.
-31. Heat-shrink mains joints, yellow.
-32. Insulation tape rolls in several colors.
-33. Fish tape / draw wire for conduits.
-34. Cable pulling lubricant tub (unlabeled).
-35. Voltage tester screwdriver and a socket tester.
-36. Clamp meter around a single core (blank display).
-37. Panel cooling fan with filter.
-38. Indicator lamps red/amber/green on a door.
-39. Selector cam switch and a push-button station.
-40. Earthing rod copper-bonded with a clamp.
-41. Lightning arrestor / SPD module in a box.
-42. Meter box polycarbonate, empty.
-43. Gland plate with mixed cable entries.
-44. Heat-resistant silicone cable coil.
-45. Welding-cable-like rubber flex, heavy.
-46. Plug tops 15A and industrial connectors together.
-47. PVC capping and casing on a brick wall.
-48. Underfloor trunking section.
-49. Full kit still life: cable coils, industrial plugs, DB, conduit — navy backdrop.
-50. Hero electrical catalog shot matching the existing still life composition.
+9. Armoured SWA cable cut end showing cores and armour.
+10. Earth cable green-yellow coil large.
+11. Cable lugs copper, tinned, various sizes.
+12. Cable glands brass and nylon, PG and metric.
+13. PVC conduit pipes white, with elbows and tees.
+14. GI conduit and inspection bends.
+15. Junction boxes grey IP65 with glands.
+16. Weatherproof isolator on a wall.
+17. LED bulkhead light and a floodlight (unlabeled).
+18. Fluorescent-style batten and an LED tube.
+19. Ceiling rose and a pendant holder.
+20. Switch plates: 1-gang, 2-gang, dimmer (blank).
+21. Socket outlets 13A (universal/generic, no brand).
+22. Industrial metal-clad sockets.
+23. Trunking PVC and a slotted cable duct.
+24. Cable tray perforated, galvanized, with a lid.
+25. Busbar copper in an open panel, taped ends.
+26. Neutral and earth bars in a DB.
+27. Timer switch analog (blank face).
+28. Photocell street-light sensor.
+29. Door bell transformer and a push.
+30. Heat-shrink mains joints, yellow.
+31. Insulation tape rolls in several colors.
+32. Fish tape / draw wire for conduits.
+33. Cable pulling lubricant tub (unlabeled).
+34. Voltage tester screwdriver and a socket tester.
+35. Clamp meter around a single core (blank display).
+36. Panel cooling fan with filter.
+37. Indicator lamps red/amber/green on a door.
+38. Selector cam switch and a push-button station.
+39. Earthing rod copper-bonded with a clamp.
+40. Lightning arrestor / SPD module in a box.
+41. Meter box polycarbonate, empty.
+42. Gland plate with mixed cable entries.
+43. Heat-resistant silicone cable coil.
+44. Welding-cable-like rubber flex, heavy.
+45. Plug tops 15A and industrial connectors together.
+46. PVC capping and casing on a brick wall.
+47. Underfloor trunking section.
+48. Full kit still life: cable coils, industrial plugs, DB, conduit — navy backdrop.
+49. Hero electrical catalog shot matching the existing still life composition.
 
 ---
 
-
-
-## 10. Pipes, fittings & valves — `pipes`
+## 10. Pipes, fittings & valves — `pipes` 10 products done
 
 Scope: GI, MS, and SS pipes, valves, fittings, joints.
 
@@ -567,51 +544,48 @@ Scope: GI, MS, and SS pipes, valves, fittings, joints.
 7. Stainless gate valve 2.5" with yellow handwheel.
 8. Globe valve cutaway-style exterior, bronze body.
 9. Butterfly valve with lever, wafer type, on a short spool.
-10. Ball valve full-bore stainless with locking handle.
-11. Check valve swing type, iron body.
-12. Y-strainer with a blowdown valve.
-13. Pressure-reducing valve with a small gauge.
-14. GI 90-degree elbows 1/2" to 3" in a group.
-15. MS long-radius weld elbows 1.5", 2", 3".
-16. Stainless 45-degree and 90-degree elbows mixed.
-17. Equal tees GI, several sizes.
-18. Reducing tees MS.
-19. Concentric and eccentric reducers SS.
-20. GI flanges class 150, full face, several diameters.
-21. MS slip-on flanges and a weld-neck flange.
-22. Stainless blind flange and a spectacle blind.
-23. Gasket set: CAF, rubber, spiral wound, on a flange.
-24. Stud bolts with heavy hex nuts for a flange joint.
-25. Threaded GI sockets, nipples, and unions.
-26. Barrel nipples in several lengths.
-27. Hex bushing reducers brass and GI.
-28. Pipe clamps / saddles and U-bolts.
-29. Grooved couplings (Victaulic-style, no logo) and a gasket.
-30. HDPE pipe coil black with a fusion fitting.
-31. PPR pipes green and PPR sockets, white studio.
-32. UPVC pressure pipes and solvent-weld fittings.
-33. CPVC hot-water fittings orange/cream.
-34. Cast iron soil pipe with a double collar.
-35. Rubber expansion joint / bellows with flanges.
-36. Steam trap (float type) on a small assembly.
-37. Needle valve for instrumentation, stainless.
-38. Hose barb fittings and a clamped rubber hose.
-39. Die stock and pipe threading machine with oily chips.
-40. Freshly threaded GI pipe end with a fitting started.
-41. PTFE tape rolls and jointing compound tin (unlabeled).
-42. Pipe vise on a stand holding a GI pipe.
-43. Welded MS spool with flanges both ends, red oxide.
-44. Polished SS hygienic clamp fittings (tri-clamp).
-45. Fire-line OS&Y valve painted red.
-46. Water-meter brass body (no readable dial text).
-47. Manifold of ball valves on a stainless header.
-48. Mixed elbow family: GI galvanized, MS black, SS brushed.
-49. Mixed flange family: GI, MS, SS on navy, catalog grid.
-50. Hero catalog board: pipes + valves + elbows + flanges for GI, MS, and SS — matching the existing pipes still life.
+10. Check valve swing type, iron body.
+11. Y-strainer with a blowdown valve.
+12. Pressure-reducing valve with a small gauge.
+13. GI 90-degree elbows 1/2" to 3" in a group.
+14. MS long-radius weld elbows 1.5", 2", 3".
+15. Stainless 45-degree and 90-degree elbows mixed.
+16. Equal tees GI, several sizes.
+17. Reducing tees MS.
+18. Concentric and eccentric reducers SS.
+19. GI flanges class 150, full face, several diameters.
+20. MS slip-on flanges and a weld-neck flange.
+21. Stainless blind flange and a spectacle blind.
+22. Gasket set: CAF, rubber, spiral wound, on a flange.
+23. Stud bolts with heavy hex nuts for a flange joint.
+24. Threaded GI sockets, nipples, and unions.
+25. Barrel nipples in several lengths.
+26. Hex bushing reducers brass and GI.
+27. Pipe clamps / saddles and U-bolts.
+28. Grooved couplings (Victaulic-style, no logo) and a gasket.
+29. HDPE pipe coil black with a fusion fitting.
+30. PPR pipes green and PPR sockets, white studio.
+31. UPVC pressure pipes and solvent-weld fittings.
+32. CPVC hot-water fittings orange/cream.
+33. Cast iron soil pipe with a double collar.
+34. Rubber expansion joint / bellows with flanges.
+35. Steam trap (float type) on a small assembly.
+36. Needle valve for instrumentation, stainless.
+37. Hose barb fittings and a clamped rubber hose.
+38. Die stock and pipe threading machine with oily chips.
+39. Freshly threaded GI pipe end with a fitting started.
+40. PTFE tape rolls and jointing compound tin (unlabeled).
+41. Pipe vise on a stand holding a GI pipe.
+42. Welded MS spool with flanges both ends, red oxide.
+43. Polished SS hygienic clamp fittings (tri-clamp).
+44. Fire-line OS&Y valve painted red.
+45. Water-meter brass body (no readable dial text).
+46. Manifold of ball valves on a stainless header.
+47. Mixed elbow family: GI galvanized, MS black, SS brushed.
+48. Mixed flange family: GI, MS, SS on navy, catalog grid.
+49. Hero catalog board: pipes + valves + elbows + flanges for GI, MS, and SS — matching the existing pipes still life.
 
 ---
-
-
 
 ## 11. Stationery, packing, chemicals, janitorial — `janitorial`
 
@@ -670,8 +644,6 @@ Scope: stationery, packing, chemicals, cleaning tools.
 
 ---
 
-
-
 ## 12. Lubricant oil & grease — `lubricants`
 
 Scope: oils and greases.
@@ -729,8 +701,6 @@ Scope: oils and greases.
 
 ---
 
-
-
 ## 13. Medical equipment — `medical`
 
 Scope: medical equipment.
@@ -787,8 +757,6 @@ Scope: medical equipment.
 50. Hero clinic still life: BP monitor, stethoscope, first-aid kit, gauze — matching the existing medical photo.
 
 ---
-
-
 
 ## Batch notes for Gemini
 
