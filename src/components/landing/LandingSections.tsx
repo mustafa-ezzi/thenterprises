@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { categories } from "../../data/categories";
+import { faqs } from "../../data/faqs";
 import { company, landingCopy } from "../../data/company";
 import { services } from "../../data/services";
 import { usePrefersReducedMotion } from "../../hooks/useLanding";
@@ -241,6 +242,29 @@ export function LandingSections() {
           <div className="inner-actions">
             <Button to="/about" variant="ghost">
               Read about us
+            </Button>
+          </div>
+        </div>
+      </section>
+
+      <section className="landing-band landing-band--tint" id="faq">
+        <div className="landing-wrap">
+          <p className="eyebrow">FAQ</p>
+          <h2 className="landing-title">Questions sites ask before they order.</h2>
+          <p className="landing-lede">
+            Short answers on supply lines, MOQ, sourcing, and how to get a quote from Karachi.
+          </p>
+          <div className="faq-list">
+            {faqs.map((item) => (
+              <details key={item.question} className="faq-item">
+                <summary>{item.question}</summary>
+                <p>{item.answer}</p>
+              </details>
+            ))}
+          </div>
+          <div className="inner-actions">
+            <Button to="/contact" variant="solid">
+              {landingCopy.ctaQuote}
             </Button>
           </div>
         </div>
