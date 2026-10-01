@@ -19,7 +19,7 @@ Photorealistic commercial industrial-supply catalog photograph, 4:3 landscape, n
 
 ---
 
-## 1. Safety products — `safety`
+## 1. Safety products — `safety` done
 
 Scope: fire protection, fall protection, PPEs, protective clothing, road and safety.
 
@@ -76,7 +76,7 @@ Scope: fire protection, fall protection, PPEs, protective clothing, road and saf
 
 ---
 
-## 2. Pneumatic materials & essentials — `pneumatic`
+## 2. Pneumatic materials & essentials — `pneumatic` done
 
 Scope: PU pipes, fittings, valves, pressure and temperature gauges.
 
@@ -587,7 +587,7 @@ Scope: GI, MS, and SS pipes, valves, fittings, joints.
 
 ---
 
-## 11. Stationery, packing, chemicals, janitorial — `janitorial`
+## 11. Stationery, packing, chemicals, janitorial — `janitorial` done
 
 Scope: stationery, packing, chemicals, cleaning tools.
 
@@ -644,7 +644,7 @@ Scope: stationery, packing, chemicals, cleaning tools.
 
 ---
 
-## 12. Lubricant oil & grease — `lubricants`
+## 12. Lubricant oil & grease — `lubricants` done
 
 Scope: oils and greases.
 
