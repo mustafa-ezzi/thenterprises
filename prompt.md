@@ -133,7 +133,7 @@ Scope: PU pipes, fittings, valves, pressure and temperature gauges.
 
 ---
 
-## 3. Power & hand tools — `tools` 10 products done
+## 3. Power & hand tools — `tools` 20 products done
 
 Scope: power tools and hand tools.
 
@@ -190,7 +190,7 @@ Scope: power tools and hand tools.
 
 ---
 
-## 4. Construction materials — `construction` 10 products done
+## 4. Construction materials — `construction` 20 products done
 
 Scope: building and site materials.
 
@@ -208,42 +208,41 @@ Scope: building and site materials.
 12. Adjustable steel props / acrow props standing in a row.
 13. Plywood shuttering sheets with form-release oil sheen.
 14. Binding wire coil and a tying tool on rebar.
-15. PVC waterstop strip coiled for a joint.
-16. Bitumen roll waterproofing membrane half unrolled.
-17. Ceramic floor tiles in a stack, grout bag nearby.
-18. White marble-look tiles with spacers on a floor.
-19. Roof tiles / corrugated cement sheets stacked.
-20. GI corrugated roofing sheets with silver shine.
-21. UPVC window frame leaning against a wall, still uninstalled.
-22. Wooden door leaf with hinges, site dust.
-23. Expansion foam can and a caulking tube of silicone.
-24. White cement bag next to grey cement for contrast.
-25. Lime bags and a mixing hoe.
-26. Ready-mix concrete truck in the distance, chute in foreground (no logos).
-27. Concrete cube test specimens on a curing tank lid.
-28. Waterproofing chemical drums (unlabeled) with a roller.
-29. Tile adhesive bags and a notched trowel.
-30. Grout float and a bucket of mixed grout.
-31. Insulation foam boards stacked against a wall.
-32. Gypsum board / drywall sheets on a cart.
-33. Ceiling T-grid and mineral fiber tiles.
-34. Paint buckets (unlabeled) with rollers and trays.
-35. Exterior emulsion vs oil enamel tins grouped.
-36. Sandpaper sheets and a sanding block on plaster.
-37. Plaster of Paris bags and a hawk.
-38. Floor screed mix in a pan with a straightedge.
-39. Damp-proof course plastic roll.
-40. Polythene curing sheets covering a slab.
-41. Site wheelbarrow, shovel, and pickaxe together.
-42. Construction helmets on stacked lumber (background only).
-43. Reinforcement chairs / concrete cover blocks.
-44. PVC conduit stubs coming out of a slab pour.
-45. Brick masonry wall mid-construction with a spirit level on top.
-46. Column starter bars sticking from a footing.
-47. Gravel drainage layer beside a foundation.
-48. Paver blocks arranged in a herringbone sample.
-49. White lime-washed wall with a plastering trowel in the foreground.
-50. Hero site still life: cement stack, trowel, binding wire, level — catalog cover for construction.
+15. Bitumen roll waterproofing membrane half unrolled.
+16. Ceramic floor tiles in a stack, grout bag nearby.
+17. White marble-look tiles with spacers on a floor.
+18. Roof tiles / corrugated cement sheets stacked.
+19. GI corrugated roofing sheets with silver shine.
+20. UPVC window frame leaning against a wall, still uninstalled.
+21. Wooden door leaf with hinges, site dust.
+22. Expansion foam can and a caulking tube of silicone.
+23. White cement bag next to grey cement for contrast.
+24. Lime bags and a mixing hoe.
+25. Ready-mix concrete truck in the distance, chute in foreground (no logos).
+26. Concrete cube test specimens on a curing tank lid.
+27. Waterproofing chemical drums (unlabeled) with a roller.
+28. Tile adhesive bags and a notched trowel.
+29. Grout float and a bucket of mixed grout.
+30. Insulation foam boards stacked against a wall.
+31. Gypsum board / drywall sheets on a cart.
+32. Ceiling T-grid and mineral fiber tiles.
+33. Paint buckets (unlabeled) with rollers and trays.
+34. Exterior emulsion vs oil enamel tins grouped.
+35. Sandpaper sheets and a sanding block on plaster.
+36. Plaster of Paris bags and a hawk.
+37. Floor screed mix in a pan with a straightedge.
+38. Damp-proof course plastic roll.
+39. Polythene curing sheets covering a slab.
+40. Site wheelbarrow, shovel, and pickaxe together.
+41. Construction helmets on stacked lumber (background only).
+42. Reinforcement chairs / concrete cover blocks.
+43. PVC conduit stubs coming out of a slab pour.
+44. Brick masonry wall mid-construction with a spirit level on top.
+45. Column starter bars sticking from a footing.
+46. Gravel drainage layer beside a foundation.
+47. Paver blocks arranged in a herringbone sample.
+48. White lime-washed wall with a plastering trowel in the foreground.
+49. Hero site still life: cement stack, trowel, binding wire, level — catalog cover for construction.
 
 ---
 
