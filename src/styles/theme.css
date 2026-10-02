@@ -23,6 +23,7 @@ body {
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 88px;
+  overflow-x: hidden;
 }
 
 body {
@@ -32,6 +33,7 @@ body {
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
   position: relative;
+  max-width: 100%;
 }
 
 a {
@@ -1622,17 +1624,22 @@ body.menu-open .burger-bar:nth-child(3) {
 
 .logo-loop {
   position: relative;
+  width: 100%;
+  max-width: 100%;
   overflow: hidden;
   margin: 36px 0 8px;
   mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
 }
 
 .logo-loop-track {
   display: flex;
   align-items: center;
   width: max-content;
+  max-width: none;
   gap: var(--loop-gap, 48px);
   animation: logo-loop var(--loop-duration, 28s) linear infinite;
+  will-change: transform;
 }
 
 .logo-loop--pause:hover .logo-loop-track {
@@ -1664,6 +1671,9 @@ body.menu-open .burger-bar:nth-child(3) {
   background: linear-gradient(180deg, #eef2f7 0%, #f7f9fc 100%);
   padding: 18px 0 22px;
   border-top: 0;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .hero-brands-label {
@@ -1681,6 +1691,9 @@ body.menu-open .burger-bar:nth-child(3) {
 
 .hero-brands .logo-loop {
   margin: 0;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .hero-brands .logo-loop-track {
@@ -1901,8 +1914,6 @@ body.menu-open .burger-bar:nth-child(3) {
 @media (prefers-reduced-motion: reduce) {
   .logo-loop-track {
     animation: none;
-    flex-wrap: wrap;
-    width: auto;
   }
 
   .hero-brands .logo-loop-track {
@@ -1997,6 +2008,8 @@ body.menu-open .burger-bar:nth-child(3) {
 
 .landing {
   background: var(--brand);
+  overflow-x: clip;
+  max-width: 100%;
 }
 
 .landing-frame {
@@ -2007,6 +2020,9 @@ body.menu-open .burger-bar:nth-child(3) {
   min-height: 100vh;
   min-height: 100dvh;
   color: #fff;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: clip;
 }
 
 .landing-frame .hero,
