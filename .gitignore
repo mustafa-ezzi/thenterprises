@@ -14,6 +14,7 @@ dist-ssr
 .env
 admin/.env
 admin/.uploads
+.tmp
 
 .vscode/*
 !.vscode/extensions.json
