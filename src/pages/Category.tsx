@@ -24,7 +24,7 @@ export function Category() {
   }
 
   const cover = categoryCover(category.slug);
-  const stills = categoryGallery(category.slug).filter((src) => !failed[src]);
+  const stills = categoryGallery(category.slug).filter((item) => !failed[item.src]);
   const showStills = stills.length > 0;
 
   return (
@@ -39,16 +39,18 @@ export function Category() {
 
       {showStills ? (
         <div className="category-gallery">
-          {stills.map((src) => (
-            <img
-              key={src}
-              src={src}
-              alt={`${category.name} product`}
-              width={800}
-              height={600}
-              className="gallery-image"
-              onError={() => setFailed((prev) => ({ ...prev, [src]: true }))}
-            />
+          {stills.map((item) => (
+            <figure key={item.key} className="gallery-card">
+              <img
+                src={item.src}
+                alt={item.name}
+                width={800}
+                height={600}
+                className="gallery-image"
+                onError={() => setFailed((prev) => ({ ...prev, [item.src]: true }))}
+              />
+              <figcaption className="gallery-caption">{item.name}</figcaption>
+            </figure>
           ))}
         </div>
       ) : (

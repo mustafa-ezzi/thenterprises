@@ -1,5 +1,6 @@
 import type { CategorySlug } from "./data/categories";
 import { categories } from "./data/categories";
+import { productLabel } from "./data/productLabels";
 
 /** Public base URL for Cloudflare R2 bucket `TNH-media`. Empty until you paste the URL. */
 export const R2: string = "https://pub-6b086f2686134300918c3ecd2486025c.r2.dev";
@@ -195,16 +196,16 @@ const categoryGalleries: Partial<Record<CategorySlug, string[]>> = {
     "products/construction/18.jfif",
     "products/construction/19.jfif",
     "products/construction/20.jfif",
-    // "products/construction/21.jfif",
-    // "products/construction/22.jfif",
-    // "products/construction/23.jfif",
-    // "products/construction/24.jfif",
-    // "products/construction/25.jfif",
-    // "products/construction/26.jfif",
-    // "products/construction/27.jfif",
-    // "products/construction/28.jfif",
-    // "products/construction/29.jfif",
-    // "products/construction/30.jfif",
+    "products/construction/21.jfif",
+    "products/construction/22.jfif",
+    "products/construction/23.jfif",
+    "products/construction/24.jfif",
+    "products/construction/25.jfif",
+    "products/construction/26.jfif",
+    "products/construction/27.jfif",
+    "products/construction/28.jfif",
+    "products/construction/29.jfif",
+    "products/construction/30.jfif",
     // "products/construction/31.jfif",
     // "products/construction/32.jfif",
     // "products/construction/33.jfif",
@@ -580,8 +581,18 @@ const categoryGalleries: Partial<Record<CategorySlug, string[]>> = {
   ],
 };
 
-export function categoryGallery(slug: CategorySlug): string[] {
-  return (categoryGalleries[slug] ?? []).map((key) => r2(key));
+export type GalleryItem = {
+  key: string;
+  src: string;
+  name: string;
+};
+
+export function categoryGallery(slug: CategorySlug): GalleryItem[] {
+  return (categoryGalleries[slug] ?? []).map((key) => ({
+    key,
+    src: r2(key),
+    name: productLabel(slug, key),
+  }));
 }
 
 export function brandLogo(slug: CategorySlug): string {
