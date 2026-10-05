@@ -133,7 +133,17 @@ export const productLabels: Partial<Record<CategorySlug, Record<number, string>>
     "17": "Black Tile Spacers",
     "18": "Adjustable Steel Shoring Props",
     "19": "Roof Tiles and Metal Sheets",
-    "20": "Terracotta Roofing Materials"
+    "20": "Terracotta Roofing Materials",
+    "21": "Concrete Pour From Chute",
+    "22": "Concrete Compression Test Cubes",
+    "23": "Heavy Door Hinge Installation",
+    "24": "Industrial Metal Drum Painting",
+    "25": "Hydrated Lime Builder Bags",
+    "26": "Keraflex Tile Adhesive Bags",
+    "27": "Mapei Grout and Float",
+    "28": "Expanding Foam Sealant Tubes",
+    "29": "White Grey Cement Bags",
+    "30": "Stacked XPS Foam Insulation"
   },
   "welding": {
     "1": "Portable Plasma Cutter",
@@ -155,7 +165,17 @@ export const productLabels: Partial<Record<CategorySlug, Record<number, string>>
     "17": "Industrial Welding Booth",
     "18": "Welding Helmet and Gloves",
     "19": "Magnetic Welding Squares",
-    "20": "Angle Grinder on Steel"
+    "20": "Angle Grinder on Steel",
+    "21": "Non-Toxic Leak Detector Spray",
+    "22": "Brass Welding Gas Regulators",
+    "23": "Stacked Metal Cutting Discs",
+    "24": "Carbon Arc Gouging Electrodes",
+    "25": "Abrasive Disc Storage Rack",
+    "26": "Oxy Fuel Flashback Arrestors",
+    "27": "Used Welding Safety Goggles",
+    "28": "Mobile Lincoln Welding Cart",
+    "29": "Clamped Steel Welding Table",
+    "30": "Steel Plate Weld Bead"
   },
   "steel": {
     "1": "Bundled Steel Rebar",
@@ -177,7 +197,17 @@ export const productLabels: Partial<Record<CategorySlug, Record<number, string>>
     "17": "Bundled Steel Rebar",
     "18": "Expanded Metal Mesh Sheets",
     "19": "Galvanized Steel Coil",
-    "20": "Serrated Steel Bar Grating"
+    "20": "Serrated Steel Bar Grating",
+    "21": "Black Steel Pipe Stack",
+    "22": "Galvanized Steel Pipe Bundle",
+    "23": "Steel Fabrication Parts Bin",
+    "24": "Diamond Plate Steel Staircase",
+    "25": "4140 Hex Steel Bar Bundle",
+    "26": "Anchor Bolt Template Assembly",
+    "27": "Zinc Black Threaded Rods",
+    "28": "Welded Diamond Plate Stairs",
+    "29": "Brushed Stainless Steel Sheet",
+    "30": "Polished Round Steel Bar Bundle"
   },
   "hvac": {
     "1": "Compressor and Gauge Kit",
@@ -199,7 +229,17 @@ export const productLabels: Partial<Record<CategorySlug, Record<number, string>>
     "17": "A-Frame Heat Exchanger Coil",
     "18": "Industrial Ventilation Fan",
     "19": "Gas Cylinder with Regulator",
-    "20": "Copper Flare and Cutter Tools"
+    "20": "Copper Flare and Cutter Tools",
+    "21": "Insulated Flexible HVAC Duct",
+    "22": "Dirty Condenser Coil Cleaning",
+    "23": "Blank Single-Gang Wall Plate",
+    "24": "Chilled Water Butterfly Valve",
+    "25": "Belt-Driven Blower Assembly",
+    "26": "Wall-Mounted HVAC Controller",
+    "27": "Condensate King CP-22 Pump",
+    "28": "Motorized Rectangular HVAC Damper",
+    "29": "Insulated Pipe Pressure Gauges",
+    "30": "MERV 8 Pleated Air Filter"
   },
   "electronics": {
     "1": "Solid State Relays",
@@ -221,7 +261,17 @@ export const productLabels: Partial<Record<CategorySlug, Record<number, string>>
     "17": "Solder and Flux Pen",
     "18": "Digital Storage Oscilloscope",
     "19": "Microcontroller Dev Board",
-    "20": "Raspberry Pi 4 Board"
+    "20": "Raspberry Pi 4 Board",
+    "21": "Digital Multimeter LCR Meter",
+    "22": "DC Axial Fans Heatsinks",
+    "23": "Analog Bench DC Power Supply",
+    "24": "Thermal Paste Heatsink Kit",
+    "25": "Assorted DB9 Female Connectors",
+    "26": "Multicolor RJ45 Ethernet Cables",
+    "27": "RJ45 Network Crimping Kit",
+    "28": "Four Port USB Hub Cables",
+    "29": "Industrial Circular Connector Assortment",
+    "30": "Coiled HDMI VGA Cables"
   },
   "electrical": {
     "1": "3-Phase Changeover Switch",
@@ -243,7 +293,17 @@ export const productLabels: Partial<Record<CategorySlug, Record<number, string>>
     "17": "Cable Lugs and Terminals",
     "18": "Isolator and LED Lights",
     "19": "PVC Pipe Fittings",
-    "20": "Pendant Ceiling Light"
+    "20": "Pendant Ceiling Light",
+    "21": "IP66 Industrial Isolator Sockets",
+    "22": "Three Phase Busbar Switchboard",
+    "23": "Photocell Dusk Street Light",
+    "24": "Pre-Galvanized Cable Tray System",
+    "25": "PVC Mini Trunking Slotted Duct",
+    "26": "230V Mains Joint Sleeves",
+    "27": "Wall Rotary Auto OFF Switch",
+    "28": "Brass Doorbell Transformer Kit",
+    "29": "Neutral Earth Busbar Control Panel",
+    "30": "Switched Universal Power Socket Modules"
   },
   "pipes": {
     "1": "Black MS Steel Pipes",
